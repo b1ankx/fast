@@ -1,0 +1,234 @@
+
+* h1, h2,h3, h4, p {
+    font-family: sans-serif;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+section{
+    position: relative;
+    width: 100%;
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+    font-weight: 800;
+}
+nav{
+    position: fixed;
+    top: 0;
+    height: 75px;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+}
+nav a{
+    position: relative;
+    /* left: 8%; */
+    bottom: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 8px 25px;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    display: inline-block;    
+}
+
+nav a:hover {
+        background: #333;
+        color: #fff;
+      }
+
+.first{
+    background-image: url(img/frst.webp);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.first h1{
+   color: white;
+   position: relative;
+   left: 13%;
+   text-shadow: 7px 7px #535e69;
+}
+.first p{
+    font-size: 25px;
+    color: white;
+    position: relative;
+    bottom: 30px;
+    left: 5%;
+    text-shadow: 7px 7px #535e69;
+}
+button {
+    margin: 20px;
+    position: relative;
+    left: 37%;
+    bottom: 20px;
+  }
+  .custom-btn {
+    width: 200px;
+    height: 50px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+  .btn-1 {
+    background: rgb(208, 216, 221);
+    background: linear-gradient(0deg, rgb(78, 152, 182) 0%, rgb(110, 112, 133) 100%);
+    border: none;
+  }
+  .btn-1:hover {
+     background: rgb(0,3,255);
+  background: linear-gradient(0deg, rgba(0,3,255,1) 0%, rgba(2,126,251,1) 100%);
+  }
+
+  .title{
+    /* background-color: rgb(183, 31, 31); */
+    height: 300px;
+    width: 500px;
+    position: relative;
+    bottom: 30%;
+    left: 35%;
+  }
+   hr{
+    background-color: rgb(240, 142, 23);
+    height: 3px;
+  }
+  .title h1{
+    font-size: 40px;
+  }
+  .title p{
+    font-size: 20px;
+  }
+  .pic{
+    width: 40%;
+    height: 70%;
+    position: relative;
+    top: 30%;
+    right: 30%;
+  }
+  .pic img{
+    width: 120%;
+    position: relative;
+    top: 10%;
+  }
+  .container{
+    margin: 20px auto;
+    width:400px;
+    height:400px;
+    display:grid;
+    grid-template-columns: 200px 200px;
+    grid-row: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    box-sizing:border-box;
+    position: relative;
+    top: 18%;
+    right: 20%;
+  }
+
+.box{
+      width: 200px;
+      height: 300px;
+      color: #333;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-family:sans-serif;
+      position: relative;
+      bottom: 120px;
+      left: 80px;
+  }
+  .box img{
+    width: 40px;
+    padding: 20px;
+
+  }
+  .box h3{
+    font-size: 20px;
+    padding: 15px;
+  }
+  .box p{
+    font-size:  15px;
+    position: relative;
+    top: 160px;
+    right: 90px;
+    margin-right: 120px;
+  }
+  .three{
+    background-color: rgb(24,24,30);
+    height: 300px;
+    position: relative;
+    top: 190px;
+}
+.count{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-between;
+    gap: 20px
+}
+.num{
+    height: 200px;
+    width: 200px;
+    padding: 10px 14px;
+    width: calc(25% - 43px);
+    text-align: center;
+    
+    
+}
+.num h2{
+    font-size: 50px;
+    position: relative;
+    bottom: 10px;
+    color: aliceblue;
+}
+.num p {
+    font-size: 20px;
+    position: relative;
+    bottom: 40px;
+    color: rgb(240, 142, 23);
+}
+  .portfolio h1{
+    font-size: 40px;
+    padding: 10px;
+    margin-left: 85px;
+  }
+  .portfolio p{
+    font-size: 20px;
+  }
+  .portfolio{
+    width: 40%;
+    height: 70%;
+    position: relative;
+    top: 5%;
+    left: 3%;
+  }
+  .logo{
+    width: 190px;
+    position: relative;
+    right: 5%;
+  }
+
+
+  
+    
